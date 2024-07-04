@@ -7,7 +7,32 @@ This project is a framework for recommendation system that suggests Steam games 
 This project showcases a collaborative filtering-based recommendation system designed to suggest Steam games to users based on their review preferences. The methodology incorporates an advanced model, SVD++, and operates on a dataset of Steam reviews, which is stored in Google BigQuery, a scalable cloud data warehouse. This setup allows efficient handling of the large dataset (approximately 9GB) focusing on user interactions with various games.
 
 ## Data
-The dataset includes reviews from multiple users across numerous Steam games, classified into positive and negative reviews. Here are some statistics about the dataset before and after preprocessing:
+The dataset includes reviews from multiple users across numerous Steam games, classified into positive and negative reviews. 
+
+### Preprocessing
+1. Load data: Get review data from BigQuery.
+
+2. Clean data:
+   - Keep only important columns (users, games, ratings).
+   - Remove duplicate reviews.
+
+3. Focus on popular games:
+   - Keep only the top 25,000 most reviewed games.
+
+4. Balance dataset:
+   - Make sure there's an equal number of positive and negative reviews.
+
+5. Calculate stats:
+   - Count users, games, and reviews.
+   - Check how balanced the ratings are.
+
+6. Analyze user behavior:
+   - Find out how many games each user rates on average.
+
+7. Check data sparsity:
+   - See how many possible ratings are actually given.
+
+These steps make the data clean, balanced, and ready for building a recommendation system.
 
 | Description                | N samples   |
 |----------------------------|-------------|
