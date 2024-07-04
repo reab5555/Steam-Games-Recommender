@@ -1,4 +1,4 @@
-<img src="icon.jpeg" width="150" alt="alt text">
+<img src="icon.jpeg" width="100" alt="alt text">
 
 # Steam Game Recommender
 
