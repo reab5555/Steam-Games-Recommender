@@ -26,8 +26,8 @@ The dataset includes reviews from multiple users across numerous Steam games, cl
 | Total number of reviews    | 6,273,764   |
 | Number of unique users     | 1,522,902   |
 | Number of unique games     | 24,999      |
-| Positive reviews (1)| 3,136,882   |
-| Negative reviews (0)          | 3,136,882   |
+| Positive reviews           | 3,136,882   |
+| Negative reviews           | 3,136,882   |
 
 ### Sparsity: 0.9998
 
