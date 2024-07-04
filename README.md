@@ -47,7 +47,7 @@ The model's implementation involved the following steps:
 3. Training the SVD++ model using the training dataset with an early stopping mechanism to prevent overfitting.
 4. Evaluating the model on the validation set.
 
-<img src="learning_rate.png" width="350" alt="alt text">
+<img src="learning_curve.png" width="350" alt="alt text">
 
 ## Evaluation Metrics
 | Metric | Value    |
