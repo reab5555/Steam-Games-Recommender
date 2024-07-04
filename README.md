@@ -75,7 +75,7 @@ Number of user ratings: 23
 Positive ratings: 9    
 Negative ratings: 14    
 
-# Top 10 Recommended Games for the User
+### Top 10 Recommended Games for the User
 
 | Game                                   | Prediction Score | Popularity (Number of Reviews) |
 |----------------------------------------|------------------|-------------------------------|
