@@ -51,6 +51,15 @@ The model's implementation involved the following steps:
 | NDCG@10| 0.9725   |
 | HR@10  | 0.9999   |
 
+### MAP@10 (Mean Average Precision at 10)
+**MAP@10** measures the average precision at each possible relevant item retrieval within the top 10 recommendations, emphasizing the order and relevance of item retrieval.
+
+### NDCG@10 (Normalized Discounted Cumulative Gain at 10)
+**NDCG@10** assesses the ranking quality of the recommendations by giving higher importance to hits at higher ranks within the top 10 recommendations.
+
+### HR@10 (Hit Rate at 10)
+**HR@10** indicates whether at least one relevant item is present in the top 10 recommendations, focusing simply on the presence of relevant items.
+
 ## Recommendations
 Example recommendations for Steam User 76561199360139694:
 
