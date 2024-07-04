@@ -29,8 +29,6 @@ The dataset includes reviews from multiple users across numerous Steam games, cl
 | Positive reviews           | 3,136,882   |
 | Negative reviews           | 3,136,882   |
 
-### Sparsity: 0.9998
-
 The dataset is hosted on Google BigQuery, which facilitates the management of large amounts of data. BigQuery's capabilities enable rapid querying and retrieval, making it ideal for the analytics required by this recommendation system.   
 
 The complete dataset used for this project is available on Kaggle: [Steam Reviews Dataset](https://www.kaggle.com/datasets/kieranpoc/steam-reviews/data).
