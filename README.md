@@ -11,7 +11,7 @@ The dataset includes reviews from multiple users across numerous Steam games, cl
 
 ### Preprocessing Statistics
 
-#### Statistics Before Balancing
+#### Before Balancing
 | Description                | N samples   |
 |----------------------------|-------------|
 | Total number of reviews    | 19,173,029  |
@@ -20,7 +20,7 @@ The dataset includes reviews from multiple users across numerous Steam games, cl
 | Positive reviews (voted_up)| 16,036,147  |
 | Negative reviews           | 3,136,882   |
 
-#### Statistics After Balancing
+#### After Balancing
 | Description                | N samples   |
 |----------------------------|-------------|
 | Total number of reviews    | 6,273,764   |
