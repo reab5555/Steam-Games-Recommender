@@ -52,7 +52,7 @@ The model's implementation involved the following steps:
 | HR@10  | 0.9999   |
 
 ## Recommendations
-Example recommendations for User 76561199360139694:
+Example recommendations for Steam User 76561199360139694:
 
 | Game                                |
 |-------------------------------------|
