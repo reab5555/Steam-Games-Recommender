@@ -34,6 +34,8 @@ The dataset includes reviews from multiple users across numerous Steam games, cl
 
 These steps make the data clean, balanced, and ready for building a recommendation system.
 
+### After Preprocessing
+
 | Description                | N samples   |
 |----------------------------|-------------|
 | Total number of reviews    | 6,273,764   |
