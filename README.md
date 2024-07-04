@@ -68,20 +68,27 @@ The model's implementation involved the following steps:
 **HR@10** indicates whether at least one relevant item is present in the top 10 recommendations, focusing simply on the presence of relevant items.
 
 ## Recommendations
-Example recommendations for Steam User 76561199360139694:
 
-| Game                                |
-|-------------------------------------|
-| Portal 2                            |
-| Wallpaper Engine                    |
-| Vampire Survivors                   |
-| RimWorld                            |
-| ULTRAKILL                           |
-| Hades                               |
-| South Park™: The Stick of Truth™    |
-| Half-Life 2                         |
-| Left 4 Dead 2                       |
-| Resident Evil 2                     |
+Example recommendations for a new Steam User:   
+
+Number of user ratings: 23    
+Positive ratings: 9    
+Negative ratings: 14    
+
+# Top 10 Recommended Games for the User
+
+| Game                                   | Prediction Score | Popularity (Number of Reviews) |
+|----------------------------------------|------------------|-------------------------------|
+| Besiege                                | 0.9165           | 1005                          |
+| The Long Dark                          | 0.9064           | 1745                          |
+| Hollow Knight                          | 0.9047           | 2776                          |
+| Just Cause 4                           | 0.8866           | 633                           |
+| Pumpkin Jack                           | 0.8806           | 321                           |
+| Crash Bandicoot™ N. Sane Trilogy       | 0.8691           | 645                           |
+| POSTAL                                 | 0.8643           | 553                           |
+| POSTAL 2                               | 0.8589           | 2641                          |
+| Halo Infinite                          | 0.8579           | 2509                          |
+| Monster Train                          | 0.8578           | 633                           |
 
 These recommendations are generated based on the user's previous interactions with various games available on Steam, aiming to enrich their gaming experience by suggesting titles likely to be of interest.
 
