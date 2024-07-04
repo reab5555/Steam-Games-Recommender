@@ -9,18 +9,6 @@ This project showcases a collaborative filtering-based recommendation system des
 ## Data
 The dataset includes reviews from multiple users across numerous Steam games, classified into positive and negative reviews. Here are some statistics about the dataset before and after preprocessing:
 
-### Preprocessing Statistics
-
-#### Before Balancing
-| Description                | N samples   |
-|----------------------------|-------------|
-| Total number of reviews    | 19,173,029  |
-| Number of unique users     | 1,795,686   |
-| Number of unique games     | 25,000      |
-| Positive reviews           | 16,036,147  |
-| Negative reviews           | 3,136,882   |
-
-#### After Balancing
 | Description                | N samples   |
 |----------------------------|-------------|
 | Total number of reviews    | 6,273,764   |
