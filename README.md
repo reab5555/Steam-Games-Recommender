@@ -1,6 +1,7 @@
 <img src="icon.jpeg" width="100" alt="alt text">
 
 # Steam Game Recommender
+This project is a framework for recommendation system that suggests Steam games based on user reviews using a collaborative filtering approach.
 
 ## Overview
 This project showcases a collaborative filtering-based recommendation system designed to suggest Steam games to users based on their review preferences. The methodology incorporates an advanced model, SVD++, and operates on a dataset of Steam reviews, which is stored in Google BigQuery, a scalable cloud data warehouse. This setup allows efficient handling of the large dataset (approximately 9GB) focusing on user interactions with various games.
