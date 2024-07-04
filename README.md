@@ -69,7 +69,7 @@ The model's implementation involved the following steps:
 
 ## Recommendations
 
-Example recommendations for a new Steam User:   
+Example recommendations for a new steam user:   
 
 Number of user ratings: 23    
 Positive ratings: 9    
