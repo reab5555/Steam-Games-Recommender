@@ -9,7 +9,6 @@ The dataset includes reviews from multiple users across numerous Steam games, cl
 ### Preprocessing Statistics
 
 #### Statistics Before Balancing
-|                 | N   |
 |----------------------------|-------------|
 | Total number of reviews    | 19,173,029  |
 | Number of unique users     | 1,795,686   |
@@ -18,7 +17,6 @@ The dataset includes reviews from multiple users across numerous Steam games, cl
 | Negative reviews           | 3,136,882   |
 
 #### Statistics After Balancing
-|                 | N   |
 |----------------------------|-------------|
 | Total number of reviews    | 6,273,764   |
 | Number of unique users     | 1,522,902   |
