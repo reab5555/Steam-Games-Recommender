@@ -58,11 +58,6 @@ The dataset is hosted on Google BigQuery, which facilitates the management of la
 <p align="left">
 <img src="images/EDA_1.jpg" width="450" alt="alt text">
 <img src="images/EDA_2.jpg" width="450" alt="alt text">
-   
-</p>
-<p align="left">
-<img src="images/EDA_3.png" width="300" alt="alt text">
-</p>
 
 ## Implementation
 The model's implementation involved the following steps:
