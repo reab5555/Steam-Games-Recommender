@@ -55,12 +55,12 @@ These steps make the data clean, balanced, and ready for building a recommendati
 
 The dataset is hosted on Google BigQuery, which facilitates the management of large amounts of data. BigQuery's capabilities enable rapid querying and retrieval, making it ideal for the analytics required by this recommendation system.   
 
-<p align="center">
+<p align="left">
 <img src="images/EDA_1.jpg" width="450" alt="alt text">
 <img src="images/EDA_2.jpg" width="450" alt="alt text">
    
 </p>
-<p align="center">
+<p align="left">
 <img src="images/EDA_3.png" width="300" alt="alt text">
 </p>
 
