@@ -15,6 +15,8 @@ SVD++ is an enhancement over the traditional singular value decomposition (SVD) 
 ## Data
 The dataset includes reviews from multiple users across numerous Steam games, classified into positive and negative reviews. 
 
+The complete dataset used for this project is available on Kaggle: [Steam Reviews Dataset](https://www.kaggle.com/datasets/kieranpoc/steam-reviews/data).
+
 ### Preprocessing
 1. Load data: Get review data from BigQuery.
 
@@ -52,8 +54,6 @@ These steps make the data clean, balanced, and ready for building a recommendati
 | Negative reviews           | 3,027,349   |
 
 The dataset is hosted on Google BigQuery, which facilitates the management of large amounts of data. BigQuery's capabilities enable rapid querying and retrieval, making it ideal for the analytics required by this recommendation system.   
-
-The complete dataset used for this project is available on Kaggle: [Steam Reviews Dataset](https://www.kaggle.com/datasets/kieranpoc/steam-reviews/data).
 
 ## Implementation
 The model's implementation involved the following steps:
