@@ -6,6 +6,12 @@ This project is a framework for recommendation system that suggests Steam games 
 ## Overview
 This project showcases a collaborative filtering-based recommendation system designed to suggest Steam games to users based on their review preferences. The methodology incorporates an advanced model, SVD++, and operates on a dataset of Steam reviews, which is stored in Google BigQuery, a scalable cloud data warehouse. This setup allows efficient handling of the large dataset (approximately 9GB) focusing on user interactions with various games.
 
+### Collaborative Filtering (CF)
+Collaborative Filtering is a technique used in recommendation systems where the system predicts a user’s preferences based on the preferences of other users with similar tastes. Our implementation leverages user-item interaction data, particularly reviews indicating whether a user liked (voted up) or disliked (voted down) a game.
+
+### SVD++
+SVD++ is an enhancement over the traditional singular value decomposition (SVD) method for collaborative filtering. It extends SVD by taking into account implicit feedback (e.g., all the items reviewed by a user, regardless of rating). It factors in both explicit interactions (ratings) and implicit interactions (review history), making the model better at handling sparse datasets and providing more personalized recommendations.
+
 ## Data
 The dataset includes reviews from multiple users across numerous Steam games, classified into positive and negative reviews. 
 
@@ -48,13 +54,6 @@ These steps make the data clean, balanced, and ready for building a recommendati
 The dataset is hosted on Google BigQuery, which facilitates the management of large amounts of data. BigQuery's capabilities enable rapid querying and retrieval, making it ideal for the analytics required by this recommendation system.   
 
 The complete dataset used for this project is available on Kaggle: [Steam Reviews Dataset](https://www.kaggle.com/datasets/kieranpoc/steam-reviews/data).
-
-## Recommender Model
-### Collaborative Filtering (CF)
-Collaborative Filtering is a technique used in recommendation systems where the system predicts a user’s preferences based on the preferences of other users with similar tastes. Our implementation leverages user-item interaction data, particularly reviews indicating whether a user liked (voted up) or disliked (voted down) a game.
-
-### SVD++
-SVD++ is an enhancement over the traditional singular value decomposition (SVD) method for collaborative filtering. It extends SVD by taking into account implicit feedback (e.g., all the items reviewed by a user, regardless of rating). It factors in both explicit interactions (ratings) and implicit interactions (review history), making the model better at handling sparse datasets and providing more personalized recommendations.
 
 ## Implementation
 The model's implementation involved the following steps:
