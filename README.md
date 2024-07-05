@@ -54,8 +54,8 @@ These steps make the data clean, balanced, and ready for building a recommendati
 | Negative reviews           | 3,027,349   |
 
 <p align="left">
-<img src="images/EDA_1.jpg" width="450" alt="alt text">
-<img src="images/EDA_2.jpg" width="450" alt="alt text">
+<img src="images/EDA_1.jpg" width="550" alt="alt text">
+<img src="images/EDA_2.jpg" width="550" alt="alt text">
 
 
 The dataset is hosted on Google BigQuery, which facilitates the management of large amounts of data. BigQuery's capabilities enable rapid querying and retrieval, making it ideal for the analytics required by this recommendation system.   
