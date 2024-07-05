@@ -89,20 +89,25 @@ Number of user ratings: 23
 Positive ratings: 9    
 Negative ratings: 14    
 
-### Top 10 Recommended Games for the User
+### Top 15 Recommended Games for the User
 
-| Game                                   | Prediction Score | Popularity (Number of Reviews) |
-|----------------------------------------|------------------|-------------------------------|
-| Besiege                                | 0.9165           | 1005                          |
-| The Long Dark                          | 0.9064           | 1745                          |
-| Hollow Knight                          | 0.9047           | 2776                          |
-| Just Cause 4                           | 0.8866           | 633                           |
-| Pumpkin Jack                           | 0.8806           | 321                           |
-| Crash Bandicoot™ N. Sane Trilogy       | 0.8691           | 645                           |
-| POSTAL                                 | 0.8643           | 553                           |
-| POSTAL 2                               | 0.8589           | 2641                          |
-| Halo Infinite                          | 0.8579           | 2509                          |
-| Monster Train                          | 0.8578           | 633                           |
+| Game                                              | Prediction Score | Popularity (Reviews) |
+|---------------------------------------------------|------------------|----------------------|
+| Dead by Daylight                                  | 0.9155           | 4458                 |
+| Depth                                             | 0.9046           | 960                  |
+| The Riftbreaker                                   | 0.9038           | 396                  |
+| Rise of the Tomb Raider                           | 0.9032           | 2992                 |
+| Minion Masters                                    | 0.8892           | 1056                 |
+| VA-11 Hall-A: Cyberpunk Bartender Action          | 0.8853           | 880                  |
+| DOOM 64                                           | 0.8781           | 472                  |
+| Dead Space (2008)                                 | 0.8750           | 1293                 |
+| FINAL FANTASY VII                                 | 0.8723           | 576                  |
+| Counter-Strike 2                                  | 0.8722           | 10829                |
+| BIOMUTANT                                         | 0.8704           | 518                  |
+| Tom Clancy's Rainbow Six Siege                    | 0.8640           | 5841                 |
+| METAL GEAR RISING: REVENGEANCE                    | 0.8623           | 1698                 |
+| Ricochet                                          | 0.8619           | 310                  |
+| Everhood                                          | 0.8608           | 362                  |
 
 These recommendations are generated based on the user's previous interactions with various games available on Steam, aiming to enrich their gaming experience by suggesting titles likely to be of interest.
 
