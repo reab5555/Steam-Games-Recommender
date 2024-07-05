@@ -38,11 +38,12 @@ These steps make the data clean, balanced, and ready for building a recommendati
 
 | Description                | N samples   |
 |----------------------------|-------------|
-| Total number of reviews    | 6,273,764   |
-| Number of unique users     | 1,522,902   |
-| Number of unique games     | 25,000      |
-| Positive reviews           | 3,136,882   |
-| Negative reviews           | 3,136,882   |
+| Total number of reviews    | 6,054,698   |
+| Number of unique users     | 1,510,565   |
+| Number of unique games     | 15,000      |
+| Average number of ratings per user | 4.01|
+| Positive reviews           | 3,027,349   |
+| Negative reviews           | 3,027,349   |
 
 The dataset is hosted on Google BigQuery, which facilitates the management of large amounts of data. BigQuery's capabilities enable rapid querying and retrieval, making it ideal for the analytics required by this recommendation system.   
 
@@ -67,9 +68,9 @@ The model's implementation involved the following steps:
 ## Evaluation Metrics
 | Metric | Value    |
 |--------|----------|
-| MAP@10 | 0.9991   |
-| NDCG@10| 0.9725   |
-| HR@10  | 0.9999   |
+| MAP@10 | 0.9988   |
+| NDCG@10| 0.9721   |
+| HR@10  | 0.9998   |
 
 ### MAP@10 (Mean Average Precision at 10)
 **MAP@10** measures the average precision at each possible relevant item retrieval within the top 10 recommendations, emphasizing the order and relevance of item retrieval.
