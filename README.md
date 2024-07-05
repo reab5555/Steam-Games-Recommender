@@ -41,7 +41,7 @@ These steps make the data clean, balanced, and ready for building a recommendati
 | Total number of reviews    | 6,054,698   |
 | Number of unique users     | 1,510,565   |
 | Number of unique games     | 15,000      |
-| Average number of ratings per user | 4.01|
+| Average number of ratings per user | 4   |
 | Positive reviews           | 3,027,349   |
 | Negative reviews           | 3,027,349   |
 
