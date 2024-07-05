@@ -1,4 +1,4 @@
-<img src="icon.jpeg" width="100" alt="alt text">
+<img src="images/icon.jpeg" width="100" alt="alt text">
 
 # Steam Game Recommender
 This project is a framework for recommendation system that suggests Steam games based on user reviews using a collaborative filtering approach.
@@ -55,6 +55,12 @@ These steps make the data clean, balanced, and ready for building a recommendati
 
 The dataset is hosted on Google BigQuery, which facilitates the management of large amounts of data. BigQuery's capabilities enable rapid querying and retrieval, making it ideal for the analytics required by this recommendation system.   
 
+### EDA
+
+<img src="images/EDA_1.jpg" width="350" alt="alt text">
+<img src="images/EDA_2.jpg" width="350" alt="alt text">
+<img src="images/EDA_3.png" width="350" alt="alt text">
+
 ## Implementation
 The model's implementation involved the following steps:
 1. Preprocessing the input data to balance the number of positive and negative reviews for a more unbiased training process.
@@ -62,7 +68,7 @@ The model's implementation involved the following steps:
 3. Training the SVD++ model using the training dataset with an early stopping mechanism to prevent overfitting.
 4. Evaluating the model on the validation set.
 
-<img src="learning_curve.png" width="350" alt="alt text">
+<img src="images/learning_curve.png" width="350" alt="alt text">
 
 ## Evaluation Metrics
 | Metric | Value    |
