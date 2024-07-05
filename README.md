@@ -109,6 +109,33 @@ Negative ratings: 14
 | Ricochet                                          | 0.8619           | 310                  |
 | Everhood                                          | 0.8608           | 362                  |
 
+### User prefrences table used for recommendations:
+| Game                       | Liked    |
+|----------------------------|----------|
+| Grand Theft Auto V         | 1        |
+| Cyberpunk 2077             | 1        |
+| Tomb Raider                | 1        |
+| Euro Truck Simulator 2     | 0        |
+| Vampire Survivors          | 0        |
+| Baldur's Gate 3            | 0        |
+| Risk of Rain 2             | 0        |
+| Team Fortress 2            | 0        |
+| Fallout 4                  | 1        |
+| ELDEN RING                 | 0        |
+| The Forest                 | 0        |
+| Destiny 2                  | 0        |
+| Unturned                   | 0        |
+| Portal                     | 1        |
+| Rocket League              | 0        |
+| Apex Legends               | 0        |
+| Max Payne 3                | 1        |
+| Counter-Strike: Global Offensive | 0        |
+| BioShock Remastered        | 1        |
+| Battlefield V              | 1        |
+| Arma 3                     | 1        |
+| Borderlands 3              | 0        |
+| Dying Light                | 0        |
+
 These recommendations are generated based on the user's previous interactions with various games available on Steam, aiming to enrich their gaming experience by suggesting titles likely to be of interest.
 
 ## Conclusion
