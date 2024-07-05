@@ -70,7 +70,7 @@ The model's implementation involved the following steps:
 | MAP@10 | 0.9988   |
 | NDCG@10| 0.9721   |
 | HR@10  | 0.9998   |
-
+| Loss   | 0.4012   |
 ### MAP@10 (Mean Average Precision at 10)
 **MAP@10** measures the average precision at each possible relevant item retrieval within the top 10 recommendations, emphasizing the order and relevance of item retrieval.
 
