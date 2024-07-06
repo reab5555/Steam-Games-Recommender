@@ -9,8 +9,11 @@ This project showcases a collaborative filtering-based recommendation system des
 ### Collaborative Filtering (CF)
 Collaborative Filtering is a technique used in recommendation systems where the system predicts a user’s preferences based on the preferences of other users with similar tastes. Our implementation leverages user-item interaction data, particularly reviews indicating whether a user liked (voted up) or disliked (voted down) a game.
 
-### SVD++
+### Singular Value Decomposition (SVD++)
 SVD++ is an enhancement over the traditional singular value decomposition (SVD) method for collaborative filtering. It extends SVD by taking into account implicit feedback (e.g., all the items reviewed by a user, regardless of rating). It factors in both explicit interactions (ratings) and implicit interactions (review history), making the model better at handling sparse datasets and providing more personalized recommendations.
+
+### Non-Negative Matrix Factorization (NNMF)
+Non-negative matrix factorization (NNMF) is a technique used in recommendation systems to break down complex data into simpler, more manageable components. NNMF helps recommendation systems break down complex user-item interactions into simpler, meaningful patterns, enabling more accurate and personalized recommendations
 
 ## Data
 The dataset includes reviews from multiple users across numerous Steam games, classified into positive and negative reviews. 
@@ -64,28 +67,39 @@ The dataset is hosted on Google BigQuery, which facilitates the management of la
 The model's implementation involved the following steps:
 1. Preprocessing the input data to balance the number of positive and negative reviews for a more unbiased training process.
 2. Splitting data into training and validation sets.
-3. Training the SVD++ model using the training dataset with an early stopping mechanism to prevent overfitting.
+3. Training the SVD++ and NNMF models using the training dataset (80%-20% train-val) with an early stopping mechanism to prevent overfitting.
 4. Evaluating the model on the validation set.
 
-<img src="images/learning_curve.png" width="350" alt="alt text">
-
-## Evaluation Metrics
+## Evaluation Metrics (NNMF)
 | Metric | Value    |
 |--------|----------|
-| MAP@10 | 0.9988   |
-| NDCG@10| 0.9721   |
-| HR@10  | 0.9998   |
-| Loss   | 0.4012   |
-### MAP@10 (Mean Average Precision at 10)
-**MAP@10** measures the average precision at each possible relevant item retrieval within the top 10 recommendations, emphasizing the order and relevance of item retrieval.
+| MAP@15 | 0.9997   |
+| NDCG@15| 0.9723   |
+| HR@15  | 0.9999   |
+| Val Loss   | 0.6073   |
 
-### NDCG@10 (Normalized Discounted Cumulative Gain at 10)
-**NDCG@10** assesses the ranking quality of the recommendations by giving higher importance to hits at higher ranks within the top 10 recommendations.
+## Evaluation Metrics (SVD++)
+| Metric | Value    |
+|--------|----------|
+| MAP@15 | 0.9988   |
+| NDCG@15| 0.9721   |
+| HR@15  | 0.9998   |
+| Val Loss   | 0.4012   |
 
-### HR@10 (Hit Rate at 10)
-**HR@10** indicates whether at least one relevant item is present in the top 10 recommendations, focusing simply on the presence of relevant items.
+### MAP@15 (Mean Average Precision at 15)
+**MAP@10** measures the average precision at each possible relevant item retrieval within the top 15 recommendations, emphasizing the order and relevance of item retrieval.
 
-## Recommendations
+### NDCG@15 (Normalized Discounted Cumulative Gain at 15)
+**NDCG@10** assesses the ranking quality of the recommendations by giving higher importance to hits at higher ranks within the top 15 recommendations.
+
+### HR@15 (Hit Rate at 15)
+**HR@10** indicates whether at least one relevant item is present in the top 15 recommendations, focusing simply on the presence of relevant items.
+
+
+* NNMF performs marginally better in ranking metrics (MAP, NDCG, HR), but the differences are minimal.   
+* SVD++ has a substantially lower validation loss, indicating better generalization.   
+
+## Recommendations (SVD++)
 
 Example recommendations for a new steam user:   
 
