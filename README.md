@@ -70,25 +70,16 @@ The model's implementation involved the following steps:
 3. Training the SVD++ and NNMF models using the training dataset (80%-20% train-val) with an early stopping mechanism to prevent overfitting.
 4. Evaluating the model on the validation set.
 
-## Evaluation Metrics (NNMF)
-| Metric | Value    |
-|--------|----------|
-| MAP@15 | 0.9997   |
-| NDCG@15| 0.9723   |
-| HR@15  | 0.9999   |
-| Val Loss   | 0.6073   |
-| Epochs   | 24   |
-| N Factors   | 100   |
+## Evaluation Metrics
+| Metric | NNMF     | SVD++
+|--------|----------|----------|
+| MAP@15 | 0.9997   | 0.9988   |
+| NDCG@15| 0.9723   | 0.9721   |
+| HR@15  | 0.9999   | 0.9998   |
+| Val Loss   | 0.6073   | 0.4012   |
+| Epochs   | 24   | 16   |
+| N Factors   | 100   | 100   |
 
-## Evaluation Metrics (SVD++)
-| Metric | Value    |
-|--------|----------|
-| MAP@15 | 0.9988   |
-| NDCG@15| 0.9721   |
-| HR@15  | 0.9998   |
-| Val Loss   | 0.4012   |
-| Epochs   | 16   |
-| N Factors   | 100   |
 
 **MAP@10** measures the average precision at each possible relevant item retrieval within the top 15 recommendations, emphasizing the order and relevance of item retrieval.
 
