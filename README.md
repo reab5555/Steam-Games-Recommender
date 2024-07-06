@@ -86,15 +86,11 @@ The model's implementation involved the following steps:
 | HR@15  | 0.9998   |
 | Val Loss   | 0.4012   |
 
-### MAP@15 (Mean Average Precision at 15)
 **MAP@10** measures the average precision at each possible relevant item retrieval within the top 15 recommendations, emphasizing the order and relevance of item retrieval.
 
-### NDCG@15 (Normalized Discounted Cumulative Gain at 15)
 **NDCG@10** assesses the ranking quality of the recommendations by giving higher importance to hits at higher ranks within the top 15 recommendations.
 
-### HR@15 (Hit Rate at 15)
 **HR@10** indicates whether at least one relevant item is present in the top 15 recommendations, focusing simply on the presence of relevant items.
-
 
 * NNMF performs marginally better in ranking metrics (MAP, NDCG, HR), but the differences are minimal.   
 * SVD++ has a substantially lower validation loss, indicating better generalization.   
