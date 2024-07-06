@@ -78,6 +78,7 @@ The model's implementation involved the following steps:
 | HR@15  | 0.9999   |
 | Val Loss   | 0.6073   |
 | Epochs   | 24   |
+| N Factors   | 100   |
 
 ## Evaluation Metrics (SVD++)
 | Metric | Value    |
@@ -87,6 +88,8 @@ The model's implementation involved the following steps:
 | HR@15  | 0.9998   |
 | Val Loss   | 0.4012   |
 | Epochs   | 16   |
+| Epochs   | 24   |
+| N Factors   | 100   |
 
 **MAP@10** measures the average precision at each possible relevant item retrieval within the top 15 recommendations, emphasizing the order and relevance of item retrieval.
 
