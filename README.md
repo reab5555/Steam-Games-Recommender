@@ -76,6 +76,7 @@ The model's implementation involved the following steps:
 | MAP@15 | 0.9997   | 0.9988   |
 | NDCG@15| 0.9723   | 0.9721   |
 | HR@15  | 0.9999   | 0.9998   |
+| Train Loss   | 0.5235   | 0.4612   |
 | Val Loss   | 0.6073   | 0.4012   |
 | Epochs   | 24   | 16   |
 | N Factors   | 100   | 100   |
