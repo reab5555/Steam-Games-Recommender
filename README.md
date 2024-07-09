@@ -4,7 +4,9 @@
 This project is a framework for recommendation system that recommend Steam games based on user reviews (likes).
 
 ## Overview
-This project showcases a collaborative filtering-based recommendation system designed to suggest Steam games to users based on their review preferences. The methodology incorporates an advanced model, SVD++, and operates on a dataset of Steam reviews, which is stored in Google BigQuery, a scalable cloud data warehouse. This setup allows efficient handling of the large dataset (approximately 9GB) focusing on user interactions with various games.
+This project showcases a collaborative filtering-based recommendation system designed to suggest Steam games to users based on their review preferences. reviews are either positive or negative, therefore, we treat positive reviews as likes, and negative reviews as dislikes.
+
+The methodology incorporates an advanced model, SVD++, and operates on a dataset of Steam reviews, which is stored in Google BigQuery, a scalable cloud data warehouse. This setup allows efficient handling of the large dataset (approximately 9GB) focusing on user interactions with various games.
 
 ### Collaborative Filtering (CF)
 Collaborative Filtering is a technique used in recommendation systems where the system predicts a user’s preferences based on the preferences of other users with similar tastes. Our implementation leverages user-item interaction data, particularly reviews indicating whether a user liked (voted up) or disliked (voted down) a game.
