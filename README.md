@@ -101,7 +101,7 @@ Negative ratings: 14
 
 ### Top 15 Recommended Games for the User
 
-| Game                                              | Prediction Score | Popularity (Reviews) |
+| Game                                              | Prediction Score | Popularity (Reviews / Likes) |
 |---------------------------------------------------|------------------|----------------------|
 | Dead by Daylight                                  | 0.9155           | 4458                 |
 | Depth                                             | 0.9046           | 960                  |
